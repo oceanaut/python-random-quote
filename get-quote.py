@@ -6,11 +6,11 @@ def main():
   secret_as_bytes= b"".join(secret.split())
   print(secret_as_bytes)
 
-  #f = open("quotes.txt")
-  #quotes = f.readlines()
-  #f.close()
+  f = open("quotes.txt")
+  quotes = f.readlines()
+  f.close()
 
-  #print(quotes)
+  print(quotes)
 
 if __name__== "__main__":
   main()
